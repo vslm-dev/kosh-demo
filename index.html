@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Kosh, барбершоп в Черкесске: мужские стрижки и борода</title>
+<meta name="description" content="Барбершоп Kosh, Черкесск, проспект Ленина, 64. Мужские стрижки от 500 ₽, оформление бороды. Ежедневно с 10:00 до 20:00. Онлайн-запись.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Golos+Text:wght@400;500;600;700&family=Unbounded:wght@500;700;900&display=swap" rel="stylesheet">
+<style>
+:root{
+  --ink:#0b0c0a; --coal:#141612; --card:#1b1e18; --line:#2c3126;
+  --moss:#8fb24a; --moss-d:#5f7a2c; --wood:#c98a4b; --cream:#f1ecdf; --mute:#9aa08e;
+  --r:18px; --pad:16px;
+}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{background:var(--ink);color:var(--cream);font:400 16px/1.55 "Golos Text",system-ui,sans-serif;overflow-x:clip;-webkit-font-smoothing:antialiased}
+img{display:block;max-width:100%;height:auto}
+a{color:inherit;text-decoration:none}
+button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
+h1,h2,h3,.u{font-family:"Unbounded",sans-serif;line-height:1.08;letter-spacing:-.01em}
+.wrap{max-width:1120px;margin:0 auto;padding:0 var(--pad)}
+.kicker{font-size:12px;letter-spacing:.2em;text-transform:uppercase;color:var(--moss);font-weight:600}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;background:var(--moss);color:#10140a;font-weight:700;padding:14px 22px;border-radius:999px;transition:transform .2s,background .2s;position:relative}
+.btn:hover{background:#a3c75a;transform:translateY(-2px)}
+.btn.ghost{background:transparent;color:var(--cream);box-shadow:inset 0 0 0 1.5px var(--line)}
+.btn.ghost:hover{box-shadow:inset 0 0 0 1.5px var(--moss)}
+section{padding:72px 0}
+h2{font-size:clamp(26px,4.4vw,44px);font-weight:700;margin:10px 0 14px;text-wrap:balance}
+.lead{color:var(--mute);max-width:560px}
+
+/* демо-плашка */
+.demo{background:var(--wood);color:#1c1206;font-size:13px;line-height:1.35;padding:8px var(--pad);text-align:center;font-weight:500}
+
+/* шапка */
+header{position:sticky;top:0;z-index:50;background:rgba(11,12,10,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:60px;gap:12px}
+.logo{font-family:"Unbounded";font-weight:900;font-size:20px;letter-spacing:.04em}
+.logo i{font-style:normal;color:var(--moss)}
+nav{display:flex;gap:22px;font-size:14px;color:var(--mute)}
+nav a:hover{color:var(--cream)}
+.bar .btn{padding:10px 16px;font-size:14px}
+@media(max-width:760px){nav{display:none}}
+
+/* hero */
+.hero{position:relative;padding:44px 0 0;overflow:hidden;min-height:calc(100svh - 96px);display:flex;flex-direction:column}
+.hero .wrap{position:relative;z-index:2;display:grid;grid-template-columns:1.15fr .85fr;gap:36px;align-items:center;flex:1;padding-bottom:150px}
+.word{font-family:"Unbounded";font-weight:900;font-size:clamp(72px,17vw,200px);line-height:.86;letter-spacing:-.03em;display:flex}
+.word span{display:inline-block}
+.word span:nth-child(2){color:var(--moss)}
+.tag{font-family:"Unbounded";font-weight:500;font-size:clamp(15px,2.2vw,22px);margin:14px 0 18px;color:var(--cream)}
+.hero p{color:var(--mute);max-width:440px}
+.cta{display:flex;flex-wrap:wrap;gap:10px;margin:24px 0 22px}
+.facts{display:flex;flex-wrap:wrap;gap:8px}
+.fact{border:1px solid var(--line);border-radius:999px;padding:7px 13px;font-size:13px;color:var(--cream);background:rgba(20,22,18,.6)}
+.fact b{color:var(--moss)}
+.shot{position:relative;justify-self:center;width:min(320px,78vw);rotate:3deg}
+.shot img{width:100%;border-radius:22px;aspect-ratio:9/16;object-fit:cover;box-shadow:0 30px 70px rgba(0,0,0,.6);border:1px solid var(--line)}
+.shot figcaption{position:absolute;left:-14px;bottom:26px;background:var(--cream);color:var(--ink);font-weight:700;font-size:13px;padding:9px 13px;border-radius:12px;rotate:-6deg;box-shadow:0 10px 24px rgba(0,0,0,.4)}
+.ridge{position:absolute;left:0;right:0;bottom:-2px;z-index:1;width:100%;height:auto;min-height:150px}
+@media(max-width:860px){
+  .hero .wrap{grid-template-columns:1fr;gap:30px;padding-bottom:120px}
+  .shot{rotate:2deg;width:min(260px,70vw)}
+}
+
+/* сцена: машинка */
+.fade{height:380vh;padding:0;position:relative;background:var(--coal)}
+.fade .stick{position:sticky;top:0;height:100svh;display:flex;flex-direction:column;justify-content:center;gap:22px;overflow:hidden;padding:70px 0 20px}
+.fade h2{margin-bottom:6px}
+.f-top{display:flex;justify-content:space-between;align-items:flex-end;gap:16px}
+.f-pct{font-family:"Unbounded";font-weight:700;font-size:clamp(28px,5vw,54px);color:var(--moss);white-space:nowrap}
+.f-pct small{font-size:.35em;color:var(--mute);font-weight:500;letter-spacing:.1em;display:block;text-align:right}
+.strip{position:relative;height:clamp(110px,22vh,200px);margin-top:34px}
+.strands{position:absolute;inset:0;display:flex;align-items:flex-end;gap:2px;border-bottom:3px solid var(--cream)}
+.strands i{flex:1;height:100%;background:linear-gradient(to top,var(--cream),#b9b29d);border-radius:3px 3px 0 0;transform-origin:50% 100%;transition:transform .35s cubic-bezier(.2,.8,.2,1),background .35s}
+.strands i.cut{background:linear-gradient(to top,var(--moss),var(--moss-d))}
+.clip{position:absolute;top:-40px;left:0;width:54px;height:auto;translate:-50% 0;z-index:3;filter:drop-shadow(0 8px 14px rgba(0,0,0,.5));will-change:transform}
+.f-list{display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.f-item{border:1px solid var(--line);border-radius:14px;padding:12px 12px 11px;background:var(--card);opacity:.28;transform:translateY(8px);transition:opacity .4s,transform .4s,border-color .4s}
+.f-item.on{opacity:1;transform:none;border-color:var(--moss-d)}
+.f-item span{display:block;font-size:13.5px;line-height:1.25;color:var(--cream);min-height:2.5em}
+.f-item b{font-family:"Unbounded";font-weight:700;font-size:17px;color:var(--moss)}
+@media(max-width:760px){
+  .fade .stick{gap:14px;padding-top:74px}
+  .f-list{grid-template-columns:1fr;gap:6px}
+  .f-item{display:flex;justify-content:space-between;align-items:center;padding:9px 13px}
+  .f-item span{min-height:0}
+  .f-item b{font-size:15px}
+  .f-top .lead{display:none}
+}
+
+/* работы */
+.works{display:grid;grid-template-columns:repeat(6,1fr);gap:12px;margin-top:28px}
+.works figure{border-radius:16px;overflow:hidden;position:relative;border:1px solid var(--line)}
+.works img{aspect-ratio:9/16;object-fit:cover;width:100%;transition:transform .6s}
+.works figure:hover img{transform:scale(1.05)}
+@media(max-width:900px){
+  .works{display:flex;overflow-x:auto;scroll-snap-type:x mandatory;margin:28px calc(var(--pad)*-1) 0;padding:0 var(--pad) 8px;scrollbar-width:none}
+  .works::-webkit-scrollbar{display:none}
+  .works figure{flex:0 0 58%;max-width:240px;scroll-snap-align:center}
+}
+.ig{display:inline-flex;align-items:center;gap:8px;margin-top:20px;color:var(--moss);font-weight:600}
+
+/* запись */
+.book{background:var(--coal)}
+.b-grid{display:grid;grid-template-columns:1.1fr .9fr;gap:34px;align-items:start;margin-top:30px}
+.panel{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:22px}
+.step{font-size:13px;color:var(--mute);margin:18px 0 9px;font-weight:600;letter-spacing:.04em}
+.step:first-child{margin-top:0}
+.chips{display:flex;flex-wrap:wrap;gap:8px}
+.chip{border:1.5px solid var(--line);border-radius:12px;padding:9px 12px;font-size:14px;line-height:1.2;text-align:left;transition:border-color .2s,background .2s,color .2s}
+.chip small{display:block;color:var(--mute);font-size:12px;margin-top:2px}
+.chip:hover{border-color:var(--moss-d)}
+.chip.sel{background:var(--moss);border-color:var(--moss);color:#10140a;font-weight:600}
+.chip.sel small{color:#2b3a12}
+.chip:disabled{opacity:.3;text-decoration:line-through;cursor:not-allowed}
+.times .chip{min-width:66px;text-align:center}
+.sum{margin-top:20px;padding-top:18px;border-top:1px dashed var(--line);display:flex;flex-wrap:wrap;gap:12px;align-items:center;justify-content:space-between}
+.sum p{font-size:14px;color:var(--mute)}
+.sum p b{color:var(--cream)}
+.spark{position:absolute;left:50%;top:50%;width:7px;height:7px;border-radius:50%;background:var(--moss);pointer-events:none}
+
+.phone{justify-self:center;width:min(320px,100%);background:#0f110d;border:1px solid var(--line);border-radius:34px;padding:12px;box-shadow:0 30px 60px rgba(0,0,0,.5)}
+.p-head{display:flex;align-items:center;gap:10px;padding:8px 8px 12px;border-bottom:1px solid var(--line)}
+.ava{width:38px;height:38px;border-radius:50%;background:var(--ink);border:1px solid var(--line);display:grid;place-items:center;font-family:"Unbounded";font-weight:900;font-size:9px}
+.p-head b{display:block;font-size:14px}.p-head small{color:var(--moss);font-size:12px}
+.chat{height:372px;overflow:hidden;display:flex;flex-direction:column;justify-content:flex-end;gap:8px;padding:12px 6px 6px}
+.msg{max-width:86%;padding:9px 12px;border-radius:15px;font-size:13.5px;line-height:1.4;animation:pop .35s both}
+.msg.bot{background:var(--card);border:1px solid var(--line);border-bottom-left-radius:5px;align-self:flex-start}
+.msg.me{background:var(--moss);color:#10140a;border-bottom-right-radius:5px;align-self:flex-end;font-weight:500}
+@keyframes pop{from{opacity:0;transform:translateY(8px) scale(.97)}}
+@media(max-width:860px){.b-grid{grid-template-columns:1fr}}
+
+/* отзывы */
+.revs{display:grid;grid-template-columns:repeat(3,1fr);gap:14px;margin-top:28px}
+.rev{background:var(--card);border:1px solid var(--line);border-radius:20px;padding:20px;display:flex;flex-direction:column;gap:12px}
+.rev .st{color:var(--wood);letter-spacing:3px;font-size:14px}
+.rev p{font-size:15px}
+.rev small{color:var(--mute);margin-top:auto}
+.rate{display:flex;flex-wrap:wrap;gap:22px;margin-top:24px;align-items:center}
+.rate .big{font-family:"Unbounded";font-weight:900;font-size:54px;color:var(--moss);line-height:1}
+.rate div small{display:block;color:var(--mute);font-size:13px}
+@media(max-width:860px){.revs{grid-template-columns:1fr}}
+
+/* контакты */
+.c-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px;margin-top:28px}
+.c-card{background:var(--card);border:1px solid var(--line);border-radius:22px;overflow:hidden}
+.c-card.info{padding:24px;display:flex;flex-direction:column;gap:16px}
+.row small{display:block;color:var(--mute);font-size:12px;letter-spacing:.1em;text-transform:uppercase;margin-bottom:2px}
+.row b{font-size:18px;font-weight:600}
+.c-card img{width:100%;height:100%;object-fit:cover;max-height:420px}
+.map{grid-column:1/-1;height:340px}
+.map iframe{width:100%;height:100%;border:0;filter:grayscale(.4) contrast(1.05)}
+@media(max-width:760px){.c-grid{grid-template-columns:1fr}.map{height:280px}}
+
+footer{padding:26px 0 90px;border-top:1px solid var(--line);color:var(--mute);font-size:13px;text-align:center}
+.fab{position:fixed;left:var(--pad);right:var(--pad);bottom:14px;z-index:40;display:none}
+@media(max-width:760px){.fab{display:flex}}
+
+.rv{opacity:0;transform:translateY(22px);transition:opacity .7s,transform .7s}
+.rv.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}.strands i{transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+
+<div class="demo">Это пример сайта для барбершопа Kosh. Адрес, цены, отзывы и фото взяты с Яндекс Карт и из Instagram. Запись здесь работает как демонстрация.</div>
+
+<header>
+  <div class="wrap bar">
+    <a href="#top" class="logo">K<i>O</i>SH</a>
+    <nav>
+      <a href="#price">Цены</a>
+      <a href="#works">Работы</a>
+      <a href="#reviews">Отзывы</a>
+      <a href="#contacts">Как найти</a>
+    </nav>
+    <a href="#book" class="btn">Записаться</a>
+  </div>
+</header>
+
+<main id="top">
+
+<section class="hero">
+  <div class="wrap">
+    <div>
+      <p class="kicker">Барбершоп · Черкесск</p>
+      <h1 class="word" aria-label="Kosh"><span>K</span><span>O</span><span>S</span><span>H</span></h1>
+      <p class="tag">территория стиля</p>
+      <p>Мужские стрижки и оформление бороды на проспекте Ленина, 64. Классика и современный стиль.</p>
+      <div class="cta">
+        <a href="#book" class="btn">Записаться онлайн</a>
+        <a href="tel:+79889110509" class="btn ghost">+7 988 911-05-09</a>
+      </div>
+      <div class="facts">
+        <span class="fact"><b>★ 4,4</b> · 35 оценок на Яндекс Картах</span>
+        <span class="fact">Ежедневно <b>10:00–20:00</b></span>
+        <span class="fact">Стрижка от <b>500 ₽</b></span>
+      </div>
+    </div>
+    <figure class="shot">
+      <img src="img/mountain.jpg" alt="Барбер Kosh стрижёт клиента на поляне в горах" width="720" height="1280">
+      <figcaption>Стрижём даже в горах ⛰️</figcaption>
+    </figure>
+  </div>
+  <svg class="ridge" viewBox="0 0 1440 220" preserveAspectRatio="none" aria-hidden="true">
+    <path d="M0 150 120 96l70 38 110-92 96 70 84-44 120 86 96-110 110 84 90-52 124 70 110-96 96 78 90-40 124 60V220H0z" fill="#20281a"/>
+    <path d="M0 186 150 138l96 34 130-70 110 56 140-46 120 60 150-84 130 66 124-40 150 52 140-38V220H0z" fill="#141612"/>
+  </svg>
+</section>
+
+<!-- Скролл-сцена: машинка идёт по «волосам» и оставляет ровный фейд, по пути открывая прайс -->
+<section class="fade" id="price" aria-labelledby="fH">
+  <div class="stick">
+    <div class="wrap">
+      <div class="f-top">
+        <div>
+          <p class="kicker">Листайте вниз</p>
+          <h2 id="fH">Было лохмато. Стало ровно</h2>
+          <p class="lead">Машинка идёт, пока вы листаете, и по пути открывает прайс.</p>
+        </div>
+        <div class="f-pct" aria-hidden="true"><span id="fPct">0</span>%<small>ГОТОВО</small></div>
+      </div>
+      <div class="strip" id="strip" aria-hidden="true">
+        <svg class="clip" id="clip" viewBox="0 0 54 96"><rect x="12" y="0" width="30" height="62" rx="9" fill="#1b1e18" stroke="#8fb24a" stroke-width="2"/><rect x="19" y="10" width="16" height="22" rx="5" fill="#8fb24a"/><path d="M8 62h38l-3 16H11z" fill="#c98a4b"/><path d="M11 78h32v6H11z" fill="#f1ecdf"/><path d="M12 84v10M17 84v10M22 84v10M27 84v10M32 84v10M37 84v10M42 84v10" stroke="#f1ecdf" stroke-width="2.4"/></svg>
+        <div class="strands" id="strands"></div>
+      </div>
+      <div class="f-list" style="margin-top:22px">
+        <div class="f-item"><span>Стрижка под одну насадку</span><b>500 ₽</b></div>
+        <div class="f-item"><span>Полубокс</span><b>800 ₽</b></div>
+        <div class="f-item"><span>Модельная стрижка</span><b>1 000 ₽</b></div>
+        <div class="f-item"><span>Окантовка бороды</span><b>400 ₽</b></div>
+        <div class="f-item"><span>Стрижка бороды</span><b>700 ₽</b></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="works">
+  <div class="wrap">
+    <p class="kicker rv">Работы</p>
+    <h2 class="rv">Смотрите сами</h2>
+    <p class="lead rv">Кадры из Instagram барбершопа. Свежие работы появляются там каждую неделю.</p>
+    <div class="works rv">
+      <figure><img src="img/w1.jpg" alt="Работа Kosh: стрижка под ноль и оформленная борода" loading="lazy"></figure>
+      <figure><img src="img/w2.jpg" alt="Работа Kosh: окантовка бороды" loading="lazy"></figure>
+      <figure><img src="img/w3.jpg" alt="Барбер Kosh стрижёт клиента ножницами" loading="lazy"></figure>
+      <figure><img src="img/w4.jpg" alt="Довольный клиент Kosh после стрижки" loading="lazy"></figure>
+      <figure><img src="img/w5.jpg" alt="Клиент и барбер Kosh в зале" loading="lazy"></figure>
+      <figure><img src="img/w6.jpg" alt="Барбер Kosh за работой" loading="lazy"></figure>
+    </div>
+    <a class="ig rv" href="https://www.instagram.com/koshbarbercut/" target="_blank" rel="noopener">Все работы в Instagram @koshbarbercut →</a>
+  </div>
+</section>
+
+<section class="book" id="book">
+  <div class="wrap">
+    <p class="kicker rv">Онлайн-запись</p>
+    <h2 class="rv">Запись за 20 секунд, без звонков</h2>
+    <p class="lead rv">Клиент сам выбирает услугу и время. Мастеру не нужно отвечать в директе во время стрижки, а бот напомнит о визите.</p>
+    <div class="b-grid">
+      <div class="panel rv">
+        <p class="step">1. УСЛУГА</p>
+        <div class="chips" id="cServ"></div>
+        <p class="step">2. ДЕНЬ</p>
+        <div class="chips" id="cDay"></div>
+        <p class="step">3. ВРЕМЯ</p>
+        <div class="chips times" id="cTime"></div>
+        <div class="sum">
+          <p id="sum">Выберите услугу, день и время</p>
+          <button class="btn" id="go" type="button">Записаться</button>
+        </div>
+      </div>
+      <div class="phone rv" aria-label="Пример переписки с ботом">
+        <div class="p-head"><div class="ava">KOSH</div><div><b>Kosh · запись</b><small>бот в Telegram, WhatsApp и Max</small></div></div>
+        <div class="chat" id="chat">
+          <div class="msg bot">Салам! Это бот барбершопа Kosh 💈 Выберите услугу и время на сайте, а я всё запишу.</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="reviews">
+  <div class="wrap">
+    <p class="kicker rv">Отзывы с Яндекс Карт</p>
+    <h2 class="rv">Что говорят клиенты</h2>
+    <div class="rate rv">
+      <div class="big">4,4</div>
+      <div><b>35 оценок, 20 отзывов</b><small>Яндекс Карты</small></div>
+      <div><b>10 из 11</b><small>хвалят барберов</small></div>
+      <div><b>10 из 11</b><small>хвалят стрижку</small></div>
+    </div>
+    <div class="revs">
+      <article class="rev rv"><div class="st">★★★★★</div><p>«Если вам важно, чтобы просто хорошо постригли, без лишнего понта, вам сюда.»</p><small>Отзыв на Яндекс Картах, ноябрь 2025</small></article>
+      <article class="rev rv"><div class="st">★★★★★</div><p>«Мастер внимательно выслушал все мои пожелания и предложил несколько интересных идей. Стрижка вышла идеальной.»</p><small>Отзыв на Яндекс Картах, ноябрь 2025</small></article>
+      <article class="rev rv"><div class="st">★★★★★</div><p>«Вышел такой красивый, что сразу чисто случайно столкнулся с девушкой и женился.»</p><small>Отзыв на Яндекс Картах, декабрь 2024</small></article>
+    </div>
+  </div>
+</section>
+
+<section id="contacts" style="background:var(--coal)">
+  <div class="wrap">
+    <p class="kicker rv">Как найти</p>
+    <h2 class="rv">Проспект Ленина, 64</h2>
+    <div class="c-grid">
+      <div class="c-card info rv">
+        <div class="row"><small>Адрес</small><b>Черкесск, проспект Ленина, 64</b></div>
+        <div class="row"><small>Телефон</small><b><a href="tel:+79889110509">+7 988 911-05-09</a></b></div>
+        <div class="row"><small>Режим работы</small><b>Ежедневно, 10:00–20:00</b></div>
+        <div class="row"><small>Удобства</small><b>Парковка · Wi-Fi · по записи</b></div>
+        <a href="#book" class="btn" style="align-self:flex-start;margin-top:6px">Записаться онлайн</a>
+      </div>
+      <div class="c-card rv"><img src="img/facade.jpg" alt="Вход в барбершоп Kosh на проспекте Ленина, 64" loading="lazy"></div>
+      <div class="c-card map rv"><iframe title="Kosh на карте" loading="lazy" src="https://yandex.ru/map-widget/v1/?ll=42.045252%2C44.220502&z=17&pt=42.045252%2C44.220502%2Cpm2gnl&oid=99114131673"></iframe></div>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<footer><div class="wrap">Kosh, барбершоп · Черкесск, проспект Ленина, 64 · Демо-версия сайта</div></footer>
+<a href="#book" class="btn fab">Записаться онлайн</a>
+
+<script src="anime.umd.min.js"></script>
+<script>
+const $ = s => document.querySelector(s), $$ = s => [...document.querySelectorAll(s)];
+const clamp = (v, a = 0, b = 1) => Math.min(b, Math.max(a, v));
+const A = window.anime || null;
+const calm = matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+/* появление блоков */
+const io = new IntersectionObserver(es => es.forEach(e => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { threshold: .12 });
+$$('.rv').forEach(el => io.observe(el));
+
+/* буквы KOSH */
+if (A && !calm) {
+  A.animate('.word span', { y: ['0.6em', 0], opacity: [0, 1], rotate: [8, 0], delay: A.stagger(90), duration: 900, ease: 'outExpo' });
+  A.animate('.shot', { y: [40, 0], opacity: [0, 1], delay: 350, duration: 1000, ease: 'outExpo' });
+}
+
+/* ---------- Сцена: машинка ---------- */
+const fade = $('#price'), strands = $('#strands'), clip = $('#clip'), items = $$('.f-item'), fPct = $('#fPct');
+let S = [], wild = [];
+function build() {
+  const n = innerWidth < 760 ? 46 : 96;
+  strands.innerHTML = ''; S = []; wild = [];
+  for (let i = 0; i < n; i++) {
+    const el = document.createElement('i'); strands.appendChild(el); S.push(el);
+    wild.push({ h: .62 + Math.random() * .38, r: (Math.random() - .5) * 26 });
+  }
+  render();
+}
+function render() {
+  const r = fade.getBoundingClientRect();
+  const p = clamp(-r.top / ((r.height - innerHeight) || 1));
+  const x = clamp((p - .06) / .82), n = S.length;
+  S.forEach((el, i) => {
+    const f = (i + .5) / n, done = f < x;
+    el.classList.toggle('cut', done);
+    el.style.transform = done ? `scaleY(${(.07 + .5 * Math.pow(f, 1.6)).toFixed(3)})` : `rotate(${wild[i].r}deg) scaleY(${wild[i].h})`;
+  });
+  const w = strands.clientWidth, h = strands.clientHeight;
+  const cut = .07 + .5 * Math.pow(x, 1.6);
+  clip.style.transform = `translate(${(x * w).toFixed(1)}px, ${(h * (1 - cut) - 52 + 40).toFixed(1)}px)`;
+  items.forEach((it, i) => it.classList.toggle('on', x > (i + .6) / items.length * .96));
+  fPct.textContent = Math.round(x * 100);
+}
+let tick = false;
+addEventListener('scroll', () => { if (!tick) { tick = true; requestAnimationFrame(() => { render(); tick = false; }); } }, { passive: true });
+let rw = innerWidth;
+addEventListener('resize', () => { if (innerWidth !== rw) { rw = innerWidth; build(); } else render(); });
+build();
+
+/* ---------- Запись ---------- */
+const SERV = [['Модельная стрижка', 1000], ['Полубокс', 800], ['Под одну насадку', 500], ['Стрижка бороды', 700], ['Окантовка бороды', 400]];
+const WD = ['вс', 'пн', 'вт', 'ср', 'чт', 'пт', 'сб'], MN = ['января', 'февраля', 'марта', 'апреля', 'мая', 'июня', 'июля', 'августа', 'сентября', 'октября', 'ноября', 'декабря'];
+const pick = { s: null, d: null, t: null };
+const cServ = $('#cServ'), cDay = $('#cDay'), cTime = $('#cTime'), sum = $('#sum'), chat = $('#chat');
+const money = n => n.toLocaleString('ru-RU') + ' ₽';
+function chip(box, html, key, val, off) {
+  const b = document.createElement('button'); b.type = 'button'; b.className = 'chip'; b.innerHTML = html; b.disabled = !!off;
+  b.onclick = () => { pick[key] = val; [...box.children].forEach(c => c.classList.toggle('sel', c === b)); if (key === 'd') times(); upd(); };
+  box.appendChild(b); return b;
+}
+SERV.forEach((s, i) => chip(cServ, `${s[0]}<small>${money(s[1])}</small>`, 's', i));
+const days = [];
+for (let i = 0; i < 6; i++) { const d = new Date(); d.setDate(d.getDate() + i); days.push(d); chip(cDay, `${i === 0 ? 'Сегодня' : i === 1 ? 'Завтра' : WD[d.getDay()].toUpperCase()}<small>${d.getDate()} ${MN[d.getMonth()]}</small>`, 'd', i); }
+function times() {
+  cTime.innerHTML = ''; pick.t = null;
+  const d = days[pick.d], now = new Date();
+  for (let h = 10; h < 20; h++) {
+    const busy = (d.getDate() * 7 + h * 3) % 4 === 0, past = pick.d === 0 && h <= now.getHours();
+    chip(cTime, `${h}:00`, 't', h, busy || past);
+  }
+}
+function when() { const d = days[pick.d]; return `${pick.d === 0 ? 'сегодня' : pick.d === 1 ? 'завтра' : WD[d.getDay()]}, ${d.getDate()} ${MN[d.getMonth()]} в ${pick.t}:00`; }
+function upd() {
+  if (pick.s === null) return sum.textContent = 'Выберите услугу, день и время';
+  const s = SERV[pick.s];
+  sum.innerHTML = pick.d === null ? `<b>${s[0]}</b> · ${money(s[1])}. Теперь выберите день` : pick.t === null ? `<b>${s[0]}</b> · ${money(s[1])}. Осталось выбрать время` : `<b>${s[0]}</b> · ${when()} · <b>${money(s[1])}</b>`;
+}
+function say(text, who, delay) {
+  setTimeout(() => {
+    const m = document.createElement('div'); m.className = 'msg ' + who; m.textContent = text; chat.appendChild(m);
+    while (chat.children.length > 5) chat.firstElementChild.remove();
+  }, delay);
+}
+function sparks(btn) {
+  if (!A || calm) return;
+  for (let i = 0; i < 14; i++) {
+    const s = document.createElement('span'); s.className = 'spark'; btn.appendChild(s);
+    const a = Math.random() * Math.PI * 2, d = 46 + Math.random() * 54;
+    A.animate(s, { x: Math.cos(a) * d, y: Math.sin(a) * d, scale: [1, 0], opacity: [1, 0], duration: 620 + Math.random() * 280, ease: 'outExpo', onComplete: () => s.remove() });
+  }
+}
+$('#go').onclick = e => {
+  if (pick.s === null || pick.d === null || pick.t === null) {
+    sum.innerHTML = '<b>Сначала выберите услугу, день и время</b>';
+    return;
+  }
+  sparks(e.currentTarget);
+  const s = SERV[pick.s];
+  say(`${s[0]}, ${when()}`, 'me', 0);
+  say(`Записал ✅ ${s[0]}, ${when()}. Стоимость ${money(s[1])}.`, 'bot', 700);
+  say('Напомню за день и за 2 часа до визита. Адрес: проспект Ленина, 64.', 'bot', 1700);
+  say('Мастеру тоже пришло уведомление о новой записи 💈', 'bot', 2700);
+  if (innerWidth < 860) setTimeout(() => chat.scrollIntoView({ behavior: 'smooth', block: 'center' }), 300);
+};
+pick.d = 1; cDay.children[1].classList.add('sel'); times();
+</script>
+</body>
+</html>
